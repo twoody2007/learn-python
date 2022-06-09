@@ -15,5 +15,5 @@ Below are some links for understanding how to run docker on Windows:
 Follow the below steps to run the program
 
 1. spin up the docker container: `docker run ...`
-2. start your python program: `uvicorn src.server:app --host 0.0.0.0 --port 8000 --reload`
+2. start your python program: `uvicorn learn_python.server:app --host 0.0.0.0 --port 8000 --reload`
 3. now click [here](http://localhost:8000)
