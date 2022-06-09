@@ -4,6 +4,6 @@ async function doThing() {
         method: "GET",
     });
 
-    let data = resp.json();
+    let data = await resp.json();
     console.log(data);
 }
